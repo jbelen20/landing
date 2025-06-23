@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
-import ArrowLeft from "../assets/image/arrowLeft.svg";
-import ArrowRight  from "../assets/image/arrowRight.svg";
+import  { ReactComponent as ArrowLeft } from "../assets/image/arrowLeft.svg";
+import { ReactComponent as ArrowRight } from "../assets/image/arrowRight.svg";
 import CardHighlights from "./CardHighlights";
 import {Title, Content, ContentSlideShow, Boton, Controls, Slide} from '../style/HighlightsSc'
 
@@ -80,13 +80,11 @@ const Highlights = () => {
         {/* controles */}
         <Controls>
           <Boton izquierdo onClick={anterior}>
-            {/* <ArrowLeft /> */}
-
-        <img src={ArrowLeft} alt="Arrow Left" />
+         
+           <ArrowLeft />
           </Boton>
           <Boton onClick={siguiente}>
-            {/* <ArrowRight /> */}
-             <img src={ArrowRight} alt="Arrow Left" />
+            <ArrowRight /> 
           </Boton>
         </Controls>
       </Content>

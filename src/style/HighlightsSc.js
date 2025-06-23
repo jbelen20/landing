@@ -51,7 +51,7 @@ export const Controls = styled.div`
   pointer-events: none;
 `;
 
-export const Botons = styled.button`
+export const Boton = styled.button`
   pointer-events: all;
   background: none;
   border: none;
