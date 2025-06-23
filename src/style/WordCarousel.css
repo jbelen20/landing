@@ -1,0 +1,31 @@
+/* WordCarousel.css */
+.carousel-container {
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #d72400;
+  margin-top:-20rem;
+  margin-left: 49rem;
+  position: absolute;
+  z-index: 1000;
+}
+
+.carousel-word {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
