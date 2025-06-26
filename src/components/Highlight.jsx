@@ -48,7 +48,6 @@ const Highlights = () => {
 
   return (
     <>
-      <Title>Destacados</Title>
       <Content>
         {/* slideshow */}
         <ContentSlideShow ref={slideshow}>

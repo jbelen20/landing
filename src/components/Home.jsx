@@ -1,4 +1,4 @@
-import bg from '../assets/image/sushi.avif'
+import bg from '../assets/image/Dashi.jpg'
 import styled from 'styled-components'
 import WordCarousel from './WordCarousel'
 

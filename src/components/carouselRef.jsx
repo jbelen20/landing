@@ -2,12 +2,12 @@ import React, { useEffect, useRef } from "react"
 import styled from "styled-components"
 
 const names = [
-  "Ana", "Luis", "Carlos", "Marta", "Pedro",
-  "Laura", "Sofía", "Diego", "Valentina", "Tomás"
+  "sushi", "sushi", "sushi", "sushi", "sushi",
+  "sushi", "sushi", "sushi", "sushi", "sushi"
 ]
 
 const Container = styled.div`
-  height: 100vh;
+  height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;

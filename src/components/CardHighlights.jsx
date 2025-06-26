@@ -1,5 +1,5 @@
 import React from "react";
-import tarta from "../assets/image/tarta_card.jpg";
+import tarta from "../assets/image/sushi_template.jpeg";
 
 import {ContentCardDetails, NameCard, ValueCard} from "../style/CardHighlightsSc";
 
