@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import '../style/WordCarousel.css'; // Asegúrate de tener este archivo CSS
 
-const words = ['Template1', 'Template2', 'Templat3', 'Templat4', 'Template5'];
+const words = ['nigiri','maki','sashimi','tempura','veggie','domburi'];
 
 const WordCarousel = () => {
   const [index, setIndex] = useState(0);

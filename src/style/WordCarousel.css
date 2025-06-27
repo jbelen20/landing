@@ -9,7 +9,7 @@
   font-weight: bold;
   color: #d72400;
   margin-top:-20rem;
-  margin-left: 49rem;
+  margin-left: 58rem;
   position: absolute;
   z-index: 1000;
 }
@@ -17,6 +17,7 @@
 .carousel-word {
   opacity: 0;
   animation: fadeIn 0.5s ease-in-out forwards;
+  text-align: center;
 }
 
 @keyframes fadeIn {

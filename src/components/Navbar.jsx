@@ -3,11 +3,16 @@ import { LogoMenu, ContainNavbar } from '../style/NavbarSc'
 import styled from 'styled-components'
 
 export default function Navbar() {
+
+  const scrolling = () => {
+    window.scrollBy({ top: 620, left: 0, behavior: 'smooth' })
+  }
+
   return (
     <ContainNavbar>
       <ButtonsContainer>
         <Buttons>Home</Buttons>
-        <Buttons>Productos</Buttons>
+        <Buttons onClick={scrolling} >Productos</Buttons>
         <Buttons>Promos</Buttons>
         <Buttons>Nosotros</Buttons>
         <Buttons>Suscursales</Buttons>

@@ -6,20 +6,24 @@ export default function Home() {
   return (
     <div>
       <ContainerBg src={bg} />
-      <h1>Title Template</h1>
+      <Title top='18%' fs='2rem' ml='59rem'>Sushi</Title>
+      <Title>美味しい</Title>
        <WordCarousel />
-       {/* <button>Click Me</button> */}
     </div>
   )
 }
 
 const Title = styled.h1`
   position: absolute;
-  top: 20%;
+  top: ${props => props.top || '20%'};
+  margin-left: ${props => props.ml || '51rem'};
+  color: #fff;
+  font-size: ${props => props.fs || '6rem'};
+  text-shadow: 4px 4px black;
 `
 
 const ContainerBg = styled.img`
-  top: -3rem;
+  top: -2rem;
   position: relative;
   z-index: -1;
   width: 100%;
