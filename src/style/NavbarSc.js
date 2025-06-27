@@ -15,7 +15,7 @@ export const ContainNavbar = styled.div`
   background: #000000;
   background: linear-gradient(180deg, rgba(0, 0, 0, 1) 71%, rgba(0, 0, 0, 0.88) 84%, rgba(0, 0, 0, 0.54) 90%, rgba(0, 0, 0, 0) 96%);
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   psition: absolute;
   z-index: 1000;
 `
