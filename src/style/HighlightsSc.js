@@ -14,8 +14,9 @@ export const Content = styled.div`
   position: relative;
   z-index: 0;
   width: 100%;
-  overflow-x: hidden;
   overflow-y: visible;
+  overflow-x: hidden;
+  padding-bottom: 3rem;
 `;
 
 export const ContentSlideShow = styled.div`
@@ -25,9 +26,9 @@ export const ContentSlideShow = styled.div`
   height: 30rem;
   width: 85%;
   align-items: center;
-  overflow: hidden;
-`;
-
+  `;
+  // overflow: hidden;
+  
 export const Slide = styled.div`
   width: 15rem;
   transition: 0.3s ease all;

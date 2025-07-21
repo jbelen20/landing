@@ -8,7 +8,7 @@ export default function Home() {
       <ContainerBg src={bg} />
       <Title top='18%' fs='2rem' ml='59rem'>Sushi</Title>
       <Title>美味しい</Title>
-       <WordCarousel />
+      <WordCarousel />
     </div>
   )
 }
