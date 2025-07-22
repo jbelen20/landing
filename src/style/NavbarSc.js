@@ -12,7 +12,6 @@ export const LogoMenu = styled.svg`
 
 export const ContainNavbar = styled.div`
   width: 100%;
-  height: 16vh;
   background: #000000;
   background: linear-gradient(180deg, rgba(0, 0, 0, 1) 71%, rgba(0, 0, 0, 0.88) 84%, rgba(0, 0, 0, 0.54) 90%, rgba(0, 0, 0, 0) 96%);
   display: flex;
@@ -22,10 +21,10 @@ export const ContainNavbar = styled.div`
   export const ContainMove = styled.div`
   top: 0;
   position: sticky;
-  z-index: 10000000000000000000000000000000;
+  z-index: 10000000;
   `
 
-export const Buttons = styled.button`
+  export const Buttons = styled.button`
   background: #D40404;
   padding: 0;
   height: 6vh;
@@ -34,8 +33,9 @@ export const Buttons = styled.button`
   padding: 0 1rem;
   font-weight: 400;
   `
-
-export const ButtonsContainer = styled.div`
+  
+  export const ButtonsContainer = styled.div`
+  height: 16vh;
   margin-top: 0.7rem;
   display: flex;
   justify-content: space-between;

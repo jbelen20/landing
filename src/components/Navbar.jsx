@@ -3,18 +3,26 @@ import { LogoMenu, ContainNavbar, ContainMove, Buttons, ButtonsContainer} from '
 
 export default function Navbar() {
 
-  const scrolling = () => {
-    window.scrollBy({ top: 520, left: 0, behavior: 'smooth' })
-  }
+function ScrollButton({ scrollAmount }) {
+  const handleClick = () => {
+    window.scrollBy({
+      top: scrollAmount,
+      behavior: 'smooth'
+    });
+  };
+
+  return <button onClick={handleClick}>Scroll {scrollAmount}px</button>;
+}
 
   return (
     <ContainMove>
     <ContainNavbar>
       <ButtonsContainer>
         <Buttons>Home</Buttons>
-        <Buttons onClick={scrolling} >Productos</Buttons>
-        <Buttons onClick={scrolling} >Promos</Buttons>
-        <Buttons>Nosotros</Buttons>
+        {/* <Buttons onClick={scrolling} >Productos</Buttons>
+        <Buttons onClick={scrolling} >Promos</Buttons> */}
+        <ScrollButton scrollAmount={650} />
+        <Buttons >Nosotros <ScrollButton scrollAmount={900} /></Buttons>
         <Buttons>Suscursales</Buttons>
         <Buttons>Contacto</Buttons>
       </ButtonsContainer>

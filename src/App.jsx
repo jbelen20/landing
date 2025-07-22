@@ -12,7 +12,6 @@ function App() {
   return (
     <>
     <Navbar/>
-    <div>
     <Home />
 
     <Text>rolls</Text>
@@ -23,7 +22,6 @@ function App() {
     <Highlights />
     <Carousel />
     <Footer />
-    </div>
     </>
   )
 }
