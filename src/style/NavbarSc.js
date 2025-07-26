@@ -11,16 +11,19 @@ export const LogoMenu = styled.svg`
 `
 
 export const ContainNavbar = styled.div`
-  width: 100%;
+  width: 8rem;
   background: #000000;
   background: linear-gradient(180deg, rgba(0, 0, 0, 1) 71%, rgba(0, 0, 0, 0.88) 84%, rgba(0, 0, 0, 0.54) 90%, rgba(0, 0, 0, 0) 96%);
   display: flex;
   justify-content: space-between;
+  height: 100vh;
+  top: 0;
+  position: relative;
   `
   
   export const ContainMove = styled.div`
   top: 0;
-  position: sticky;
+  position: fixed;
   z-index: 10000000;
   `
 

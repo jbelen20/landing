@@ -17,10 +17,10 @@ function ScrollButton({ scrollAmount }) {
   return (
     <ContainMove>
     <ContainNavbar>
-      <ButtonsContainer>
+      {/* <ButtonsContainer>
         <Buttons>Home</Buttons>
-        {/* <Buttons onClick={scrolling} >Productos</Buttons>
-        <Buttons onClick={scrolling} >Promos</Buttons> */}
+        <Buttons onClick={scrolling} >Productos</Buttons>
+        <Buttons>Promos</Buttons>
         <ScrollButton scrollAmount={650} />
         <Buttons >Nosotros <ScrollButton scrollAmount={900} /></Buttons>
         <Buttons>Suscursales</Buttons>
@@ -28,7 +28,7 @@ function ScrollButton({ scrollAmount }) {
       </ButtonsContainer>
       <LogoMenu xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
-      </LogoMenu>
+      </LogoMenu> */}
     </ContainNavbar>
     </ContainMove>
   )

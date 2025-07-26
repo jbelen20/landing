@@ -4,14 +4,20 @@ import WordCarousel from './WordCarousel'
 
 export default function Home() {
   return (
-    <div>
+    <ContentHome>
       <ContainerBg src={bg} />
       <Title top='18%' fs='2rem' ml='59rem'>Sushi</Title>
       <Title>美味しい</Title>
       <WordCarousel />
-    </div>
+    </ContentHome>
   )
 }
+
+const ContentHome = styled.div`
+ height: 90vh;
+ margin: 10rem;
+ width: 100%;
+`
 
 const Title = styled.h1`
   position: absolute;
@@ -24,10 +30,9 @@ const Title = styled.h1`
 
 const ContainerBg = styled.img`
   top: -2rem;
-  position: relative;
-  z-index: -1;
+  position: absolute;
   width: 100%;
-  height: 90vh;
+  height: 100%;
   object-fit:  cover;
   boerder: solid 1px red
 `

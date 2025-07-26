@@ -10,9 +10,9 @@ export const Title = styled.p`
 `;
 
 export const Content = styled.div`
+  height: 100vh;
   margin: 0 auto;
   position: relative;
-  z-index: 0;
   width: 100%;
   overflow-y: visible;
   overflow-x: hidden;
